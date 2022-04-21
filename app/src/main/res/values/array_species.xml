@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="dog_species">
+        <item>Akita</item>
+        <item>Corgi</item>
+        <item>Chow Chow</item>
+        <item>Dachshund</item>
+        <item>Dalmatian</item>
+        <item>Miniature Schnauzer</item>
+        <item>Pomeranian</item>
+        <item>Poodle</item>
+        <item>Siberian Husky</item>
+        <item>Springer Spaniel</item>
+    </array>
+    <array name="cat_species">
+        <item>Abyssinian</item>
+        <item>Briman</item>
+        <item>British Shorthair</item>
+        <item>Japanese Bobtail</item>
+        <item>Oriental</item>
+        <item>Persian</item>
+        <item>Scottish Fold</item>
+        <item>Shorthair</item>
+        <item>Siamese</item>
+        <item>Snowshoe</item>
+    </array>
+</resources>
