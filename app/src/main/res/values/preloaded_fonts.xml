@@ -3,5 +3,6 @@
     <array name="preloaded_fonts" translatable="false">
         <item>@font/gaegu_bold</item>
         <item>@font/poor_story</item>
+        <item>@font/sniglet</item>
     </array>
 </resources>

@@ -3,6 +3,7 @@ package com.example.family;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -34,6 +35,19 @@ public class Register extends AppCompatActivity {
             public void onClick(View v) {
                 final ArrayAdapter<CharSequence> sAdapter = ArrayAdapter.createFromResource (Register.this, R.array.dog_species, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item);
                 spinner_species.setAdapter (sAdapter);
+                spinner_species.setOnItemSelectedListener (new AdapterView.OnItemSelectedListener () {
+                    @Override
+                    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                        ((TextView) parent.getChildAt (0)).setTextColor (Color.DKGRAY);
+                        str_species = parent.getItemAtPosition (position).toString ();
+                        Toast.makeText (Register.this, str_species, Toast.LENGTH_SHORT).show ();
+                    }
+
+                    @Override
+                    public void onNothingSelected(AdapterView<?> parent) {
+
+                    }
+                });
             }
         });
 
@@ -42,8 +56,22 @@ public class Register extends AppCompatActivity {
             public void onClick(View v) {
                 final ArrayAdapter<CharSequence> sAdapter = ArrayAdapter.createFromResource (Register.this, R.array.cat_species, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item);
                 spinner_species.setAdapter (sAdapter);
+                spinner_species.setOnItemSelectedListener (new AdapterView.OnItemSelectedListener () {
+                    @Override
+                    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                        ((TextView) parent.getChildAt (0)).setTextColor (Color.DKGRAY);
+                        str_species = parent.getItemAtPosition (position).toString ();
+                        Toast.makeText (Register.this, str_species, Toast.LENGTH_SHORT).show ();
+                    }
+
+                    @Override
+                    public void onNothingSelected(AdapterView<?> parent) {
+
+                    }
+                });
             }
         });
+
 
 
         ImageButton btn_back = findViewById (R.id.btn_back);
@@ -58,7 +86,7 @@ public class Register extends AppCompatActivity {
         RadioGroup radioGroup = findViewById (R.id.radio_sex);
         RadioButton radio_girl = findViewById (R.id.radio_girl);
         RadioButton radio_boy = findViewById (R.id.radio_boy);
-        radioGroup.setOnCheckedChangeListener (new RadioGroup.OnCheckedChangeListener () { // 라디오 그룹 버튼 
+        radioGroup.setOnCheckedChangeListener (new RadioGroup.OnCheckedChangeListener () { // 라디오 그룹 버튼
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 if(checkedId == R.id.radio_girl) { // girl 라디오 버튼 클릭 시
@@ -81,6 +109,11 @@ public class Register extends AppCompatActivity {
 
                 str_name = et_name.getText ().toString (); // name 입력값 받기
                 str_birth = et_birth.getText ().toString (); // birth 입력값 받기
+
+                Intent intent = new Intent (Register.this, Family.class);
+                intent.putExtra ("name", str_name);
+                intent.putExtra ("species", str_species);
+                startActivity (intent);
 
             }
         });
