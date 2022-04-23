@@ -29,5 +29,41 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_akitaxml" />
 
+    <ImageButton
+        android:id="@+id/btn_vet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="572dp"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/btn_calendar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_vet_img"
+        app:tint="#416883" />
+
+    <ImageButton
+        android:id="@+id/btn_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="572dp"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_img_calendar"
+        app:tint="#416883" />
+
+    <ImageButton
+        android:id="@+id/btn_community"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="572dp"
+        app:layout_constraintStart_toEndOf="@+id/btn_vet"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_community"
+        android:background="#FFFFFF"
+        app:tint="#416883" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

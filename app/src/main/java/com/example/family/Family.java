@@ -87,8 +87,8 @@ public class Family extends AppCompatActivity {
             case "Snowshoe" :
                 img_species.setImageResource (R.drawable.ic_snowshoexml);
                 break;
-
-
         }
+
+
     }
 }

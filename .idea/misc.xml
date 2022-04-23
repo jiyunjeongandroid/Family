@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1025" />
         <entry key="app/src/main/res/drawable/ic_abyssinianxml.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_akita.xml" value="0.257" />
         <entry key="app/src/main/res/drawable/ic_akitaxml.xml" value="0.257" />
@@ -12,10 +13,12 @@
         <entry key="app/src/main/res/drawable/ic_britishshorthairxml.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_cat_img.xml" value="0.152" />
         <entry key="app/src/main/res/drawable/ic_chowchowxml.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_community.xml" value="0.2315" />
         <entry key="app/src/main/res/drawable/ic_corgixml.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_dachshundxml.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_dalmatianxml.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_dog.xml" value="0.152" />
+        <entry key="app/src/main/res/drawable/ic_img_calendar.xml" value="0.1185" />
         <entry key="app/src/main/res/drawable/ic_japanesebobtailxml.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_miniatureschnauzerxml.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_orientalxml.xml" value="0.1" />
@@ -30,11 +33,13 @@
         <entry key="app/src/main/res/drawable/ic_snowshoexml.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_springer_spaniel.xml" value="0.299" />
         <entry key="app/src/main/res/drawable/ic_springerspanielxml.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_vet_img.xml" value="0.2315" />
         <entry key="app/src/main/res/drawable/spinner_custom.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_calendar.xml" value="0.2913672830291961" />
-        <entry key="app/src/main/res/layout/activity_family.xml" value="0.2670207854240171" />
+        <entry key="app/src/main/res/layout/activity_calendar.xml" value="0.4594435471754808" />
+        <entry key="app/src/main/res/layout/activity_family.xml" value="0.30009002685546876" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3660537719726563" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.24769230769230768" />
+        <entry key="app/src/main/res/layout/calendar_cell.xml" value="0.6036407470703126" />
       </map>
     </option>
   </component>

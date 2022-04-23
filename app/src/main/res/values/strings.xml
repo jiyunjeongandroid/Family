@@ -2,4 +2,6 @@
     <string name="app_name">Family</string>
     <string name="species">SPECIES</string>
     <string name="tan">tan</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="forward"><![CDATA[>]]></string>
 </resources>

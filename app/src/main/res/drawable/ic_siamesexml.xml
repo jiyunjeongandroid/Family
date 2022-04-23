@@ -2,6 +2,6 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:drawable="@drawable/ic_siamese"
-        android:height="30dp"
-        android:width="30dp" />
+        android:height="40dp"
+        android:width="40dp" />
 </layer-list>
